@@ -1,0 +1,23 @@
+{
+    "name": "temple",
+    "description": "TempleCodex theme.",
+    "version": "0.1.0",
+    "engines": {
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Zaphod Beeblebrox",
+        "email": "zb.bebop@gmail.com",
+        "url": "https://templecodex.link/"
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
+    "config": {
+        "posts_per_page": 25
+    }
+}

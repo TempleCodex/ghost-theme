@@ -1,0 +1,27 @@
+/* Start Load Fonts */
+@font-face {
+    font-family: "Caviar Dreams";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/CaviarDreams.ttf");
+}
+
+@font-face {
+    font-family: "Caviar Dreams";
+    font-weight: bold;
+    src: url("../fonts/CaviarDreams_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Caviar Dreams";
+    font-style: italic;
+    src: url("../fonts/CaviarDreams_Italic.ttf");
+}
+
+@font-face {
+    font-family: "Megant";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Megant.ttf");
+}
+/* End Load Fonts */

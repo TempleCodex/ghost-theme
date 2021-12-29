@@ -28,6 +28,7 @@ production stylesheet in assets/built/screen.css
 /* ---------------------------------------------------------- */
 
 /* Import CSS reset and base styles */
+@import "fonts.css";
 @import "global.css";
 
 :root {
@@ -52,8 +53,8 @@ production stylesheet in assets/built/screen.css
      */
 
     /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, Times, serif;
+    --font-sans-serif: "Caviar Dreams", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    --font-serif: "Megant", serif;
     --font-mono: Menlo, Courier, monospace;
 
 }
@@ -120,6 +121,7 @@ production stylesheet in assets/built/screen.css
 }
 
 .site-title {
+    font-family: var(--font-serif);
     z-index: 10;
     margin: 0 0 0.15em;
     padding: 0;
@@ -221,6 +223,7 @@ production stylesheet in assets/built/screen.css
 /* ---------------------------------------------------------- */
 
 .gh-head-menu {
+    font-family: var(--font-sans-serif);
     display: flex;
     align-items: center;
     font-weight: 500;

@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
+      - run: yarn install
+      - run: gulp build
       - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}

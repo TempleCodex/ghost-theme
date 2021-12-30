@@ -1850,7 +1850,7 @@ html.dark-mode .no-image .author-social-link a {
 }
 
 html.dark-mode .gh-content > [id] {
-    color: rgba(255, 255, 255, 0.9);
+    color: #BD7B4F;
 }
 
 html.dark-mode .gh-content pre {

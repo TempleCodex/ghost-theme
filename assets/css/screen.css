@@ -1092,7 +1092,7 @@ is the very first element in the post content */
     top: 0;
     bottom: 0;
     width: 0.3rem;
-    background: var(--ghost-accent-color);
+    background: #BD7B4F;
 }
 
 .gh-content :not(pre) > code {

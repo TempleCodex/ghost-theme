@@ -1,0 +1,6 @@
+/* This file contains theme based overrides for existing classes. */
+
+/* Override for core/frontend/src/cards/css/header.css */
+.kg-header-card.kg-size-small h2.kg-header-card-header {
+    font-size: 7vmin !important;
+}

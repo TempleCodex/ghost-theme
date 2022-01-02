@@ -1,0 +1,1 @@
+{"version":3,"sources":["overrides.css"],"names":[],"mappings":"AAGA,uDACI,yBACJ","file":"overrides.css","sourcesContent":["/* This file contains theme based overrides for existing classes. */\n\n/* Override for core/frontend/src/cards/css/header.css */\n.kg-header-card.kg-size-small h2.kg-header-card-header {\n    font-size: 7vmin !important;\n}"]}

@@ -278,7 +278,7 @@ body {
 
 ::selection {
     text-shadow: none;
-    background: #BD7B4F;
+    background: var(--temple-brown);
 }
 
 hr {

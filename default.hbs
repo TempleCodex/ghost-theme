@@ -62,9 +62,12 @@
     <footer class="site-footer outer">
         <div class="inner">
             <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
-            <nav class="site-footer-nav">
-                {{navigation type="secondary"}}
-            </nav>
+            <div id="footer-logo-and-nav" style="display:flex; flex-flow:column; align-items: center;">
+                <nav class="site-footer-nav">
+                    {{navigation type="secondary"}}
+                </nav>
+                <img src="assets/codexlogo.png" style="width: calc(min(320px, 30vmax));">
+            </div>
             <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
         </div>
     </footer>

@@ -1710,13 +1710,14 @@ iframe.instagram-media + script + :not([id]) {
     padding: 0;
     margin: 0;
     line-height: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .site-footer-nav a {
     position: relative;
     display: inline-flex;
     align-items: center;
-    margin-left: 10px;
 }
 
 .site-footer-nav li:not(:first-child) a:before {

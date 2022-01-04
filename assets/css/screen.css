@@ -1902,9 +1902,12 @@ html.dark-mode .kg-header-card.kg-style-light {
     background: color-mod(var(--color-darkgrey) l(+5%));
 }
 
-html.dark-mode .kg-header-card h2.kg-header-card-header,
-html.dark-mode .kg-header-card h3.kg-header-card-subheader {
+html.dark-mode .kg-header-card h2.kg-header-card-header {
     color: var(--temple-brown);
+}
+
+html.dark-mode .kg-header-card h3.kg-header-card-subheader {
+    color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {

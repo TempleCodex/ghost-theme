@@ -1,5 +1,5 @@
 /**
-*** SIMPLE GRID (C) ZACH COLE 2016
+*** Modified from Zach Cole's Simple Grid
 **/
 
 /* ==== GRID SYSTEM ==== */
@@ -11,13 +11,15 @@
 }
 
 .row {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   width: 100%;
 }
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5rem 2%;
+  /* margin: 0.5rem 2%; */
   min-height: 0.125rem;
 }
 

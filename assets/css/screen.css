@@ -1042,6 +1042,7 @@ is the very first element in the post content */
 .has-sans-body .gh-content .kg-toggle-card .kg-toggle-content > ul,
 .has-sans-body .gh-content .kg-toggle-card .kg-toggle-content > p {
     font-family: var(--font-sans);
+    /* margin: 0.5rem 0.25vw; */
 }
 
 .gh-content > ul,

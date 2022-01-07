@@ -30,7 +30,7 @@ production stylesheet in assets/built/screen.css
 /* Import CSS reset and base styles */
 @import "fonts.css";
 @import "global.css";
-@import "simple-grid.css";
+@import "grid.css";
 @import "vars.css";
 @import "overrides.css";
 @import "scrollbar.css";

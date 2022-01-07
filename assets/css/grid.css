@@ -19,12 +19,6 @@
   width: 100%;
 }
 
-.row::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
 @media only screen and (min-width: 720px) {
   .row {
     display: flex;
@@ -35,7 +29,6 @@
   
   .row [class^="col"] {
     float: left;
-    margin: 0.5rem 2%;
     min-height: 0.125rem;
   }
 
@@ -60,7 +53,7 @@
   }
 
   .col-6 {
-    width: 46%;
+    width: 48%;
   }
 
   .col-7 {

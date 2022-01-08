@@ -30,8 +30,10 @@ production stylesheet in assets/built/screen.css
 /* Import CSS reset and base styles */
 @import "fonts.css";
 @import "global.css";
+@import "grid.css";
 @import "vars.css";
 @import "overrides.css";
+@import "scrollbar.css";
 
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
@@ -1040,6 +1042,7 @@ is the very first element in the post content */
 .has-sans-body .gh-content .kg-toggle-card .kg-toggle-content > ul,
 .has-sans-body .gh-content .kg-toggle-card .kg-toggle-content > p {
     font-family: var(--font-sans);
+    /* margin: 0.5rem 0.25vw; */
 }
 
 .gh-content > ul,
@@ -1708,13 +1711,14 @@ iframe.instagram-media + script + :not([id]) {
     padding: 0;
     margin: 0;
     line-height: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .site-footer-nav a {
     position: relative;
     display: inline-flex;
     align-items: center;
-    margin-left: 10px;
 }
 
 .site-footer-nav li:not(:first-child) a:before {

@@ -4,3 +4,14 @@
 .kg-header-card.kg-size-small h2.kg-header-card-header {
     font-size: 7vmin !important;
 }
+
+/* Override fonts, font color for in-column header */
+[class^="col"] h1, h2, h3, h4 {
+    font-family: var(--font-serif);    
+    color: var(--temple-brown);
+}
+  
+/* Override paragraph lower padding */
+[class^="col"] p {
+    padding-bottom: 1.5rem;
+}

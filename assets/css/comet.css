@@ -1,5 +1,6 @@
 .comet-container {
   position: relative;
+  cursor: pointer;
 }
 
 .comet-container .comet-dot {

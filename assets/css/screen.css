@@ -35,6 +35,9 @@ production stylesheet in assets/built/screen.css
 @import "overrides.css";
 @import "scrollbar.css";
 
+/* Comet animation CSS */
+@import "comet.css";
+
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
 

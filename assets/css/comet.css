@@ -1,0 +1,9 @@
+.comet-container {
+  position: relative;
+}
+
+.comet-container .comet-dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: hsl(44, 94%, 44%);
+}
